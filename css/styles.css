@@ -130,8 +130,8 @@ p {
 /*navbar*/
 
 #current {
-  color: black;
-  border: 2px solid black;
+  color:#9216BD;
+  border: 2px solid #9216BD;
   border-style: none none solid none;
   font-weight: 700;
 }
@@ -238,11 +238,6 @@ p {
 .titular {
   margin-top: 15vh;
 }
-
-
-
-
-
 
 
 /*cursos scroll lateral index*/
