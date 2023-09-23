@@ -36,9 +36,12 @@ p {
 /*colores*/
 
 .naranja{
-  color: #FBBA13;
+  color: #9216BD;
 }
 
+.verde{
+  color: #34A875;
+}
 .blanco {
 color: white;
 }
@@ -57,7 +60,7 @@ color: white;
 
 /*botones generales*/
 .boton-primary{
-  background-color:#FBBA13;
+  background-color:#9216BD;
   border-radius: 10px;
   height: 48px;
   width: 252px;
@@ -76,7 +79,7 @@ background-color:white;
 }
 
 .boton-primary a:hover {
-color:#FBBA13;
+color:#9216BD;
 }
 
 
@@ -91,12 +94,12 @@ color:#FBBA13;
 
 .boton-second a {
   font-size: 1.2rem;
-  color:#FBBA13;
+  color:#9216BD;
    padding: 14px 16px 14px 16px;
 }
 
 .boton-second:hover {
-background-color:#FBBA13;
+background-color:#9216BD;
 }
 
 .boton-second a:hover {
@@ -108,7 +111,7 @@ color:white;
   border-radius: 10px;
   height: 48px;
   width: 252px;
-  border:4px solid #FBBA13;
+  border:4px solid #9216BD;
 }
 
 .boton-outlined a{
@@ -118,7 +121,7 @@ color:white;
 }
 
 .boton-outlined:hover {
-  background-color: #FBBA13;
+  background-color: #9216BD;
 }
 
 
@@ -155,7 +158,7 @@ margin-top: 5rem;
 }
 
 .imghero-index {
-  background-image: url("../media/index/hero-image.png");
+  background-image: url("../media/index/slider.jpg");
 }
 
 .imghero-nosotros {
@@ -317,7 +320,7 @@ background-size: cover;
 }
 
 .boton-outlined-card a:hover {
-  color:#FBBA13;
+  color:#9216BD;
 }
 
 
@@ -375,7 +378,7 @@ min-height: 150px!important;
   border-radius: 10px;
   height: 48px;
   width: 156px;
-  border:4px solid #FBBA13;
+  border:4px solid #9216BD;
    font-size: 1.2rem;
   color:white;
   font-family: "multicolore";
@@ -383,7 +386,7 @@ min-height: 150px!important;
 
 
 .boton-outlined-form:hover {
-background-color: #FBBA13;
+background-color: #9216BD;
 }
 
 .boton-outlined-form_contacto {
@@ -395,7 +398,7 @@ background-color: #FBBA13;
 
 .boton-outlined-form_contacto:hover {
   background-color: white;
-  color:#FBBA13;
+  color:#9216BD;
 }
 
 
@@ -404,7 +407,7 @@ background-color: #FBBA13;
 
 .numero{
   font-size: 3.75rem;
-  color: #FBBA13;
+  color: #9216BD;
   font-family: 'lato';
   font-style: 400;
 }
@@ -418,7 +421,7 @@ margin-top: 5vh;
 }
 
 .mision-color{
-  background-color: #FBBA13;
+  background-color: #9216BD;
 }
 
 .vision-color{
@@ -430,7 +433,7 @@ margin-top: 5vh;
 
 
 .historia {
-background-color: #FBBA13;
+background-color: #9216BD;
  border-radius: 10px;
  height: 50px;
  color:white;
@@ -440,18 +443,18 @@ background-color: #FBBA13;
 }
 
 .mestop {
-    border:2px solid #FBBA13;
+    border:2px solid #9216BD;
     border-radius: 10px 10px 0 0;
 }
 
 .mesmedio {
-    border:2px solid #FBBA13;
+    border:2px solid #9216BD;
     border-top: none;
 }
 
 .mesbottom {
 
-  border:2px solid #FBBA13;
+  border:2px solid #9216BD;
   border-top: none;
   border-radius: 0 0 10px 10px;
 
@@ -466,7 +469,7 @@ background-color: #FBBA13;
 }
 
 .cardmes:hover {
-   color: #FBBA13;
+   color: #9216BD;
 }
 
 .list-group-submenu {
@@ -499,7 +502,7 @@ background-color: #FBBA13;
 }
 
 .copyright {
-  background-color: #FBBA13;
+  background-color: #9216BD;
 }
 
 .copyright p {
@@ -512,7 +515,7 @@ background-color: #FBBA13;
 }
 
 .redes:hover {
-  color: #FBBA13;
+  color: #9216BD;
 }
 
 
