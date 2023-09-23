@@ -1,33 +1,32 @@
-
 /* general*/
 
-* { 
-  font-family: 'lato', 'Multicolore', sans-serif; 
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  font-family: 'lato', 'Multicolore', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
- @font-face {
-      font-family: "multicolore";
-      src: url("../media/multicolore.otf");
-    }
+@font-face {
+  font-family: "multicolore";
+  src: url("../media/multicolore.otf");
+}
 
-h1,h2,h3,h4,h5,h6, button a {
+h1, h2, h3, h4, h5, h6, button a {
   font-family: "multicolore";
   src: url("../media/multicolore.otf");
 
 }
 
 a:link, a:visited, a:active {
-    text-decoration:none;
+  text-decoration: none;
 }
 
 p {
-   font-family: 'lato';
-   font-size: 1.2rem;
-   font-style: 400;
-   color: #2C2B2A;
+  font-family: 'lato';
+  font-size: 1.2rem;
+  font-style: 400;
+  color: #2C2B2A;
 }
 
 
@@ -35,23 +34,24 @@ p {
 
 /*colores*/
 
-.naranja{
+.naranja {
   color: #9216BD;
 }
 
-.verde{
+.verde {
   color: #34A875;
 }
+
 .blanco {
-color: white;
+  color: white;
 }
 
-.colornegro{
-  color:#2C2B2A;
+.colornegro {
+  color: #2C2B2A;
 }
 
-.gris{
-  color:#F4F4F4;
+.gris {
+  color: #F4F4F4;
 }
 
 
@@ -59,64 +59,64 @@ color: white;
 
 
 /*botones generales*/
-.boton-primary{
-  background-color:#9216BD;
+.boton-primary {
+  background-color: #9216BD;
   border-radius: 10px;
   height: 48px;
   width: 252px;
-  border:none;
+  border: none;
   color: white;
 }
 
 .boton-primary a {
   font-size: 1.2rem;
-  color:white;
+  color: white;
   padding: 14px 40px 14px 40px;
 }
 
 .boton-primary:hover {
-background-color:white;
+  background-color: white;
 }
 
 .boton-primary a:hover {
-color:#9216BD;
+  color: #9216BD;
 }
 
 
-.boton-second{
-  background-color:white;
+.boton-second {
+  background-color: white;
   border-radius: 10px;
   height: 48px;
   width: 252px;
-  border:none;
+  border: none;
   margin-top: 1rem;
 }
 
 .boton-second a {
   font-size: 1.2rem;
-  color:#9216BD;
-   padding: 14px 16px 14px 16px;
+  color: #9216BD;
+  padding: 14px 16px 14px 16px;
 }
 
 .boton-second:hover {
-background-color:#9216BD;
+  background-color: #9216BD;
 }
 
 .boton-second a:hover {
-color:white;
+  color: white;
 }
 
 .boton-outlined {
-  background-color:  transparent;
+  background-color: transparent;
   border-radius: 10px;
   height: 48px;
   width: 252px;
-  border:4px solid #9216BD;
+  border: 4px solid #9216BD;
 }
 
-.boton-outlined a{
-   font-size: 1.2rem;
-  color:#2C2B2A;
+.boton-outlined a {
+  font-size: 1.2rem;
+  color: #2C2B2A;
 
 }
 
@@ -130,31 +130,31 @@ color:white;
 /*navbar*/
 
 #current {
-  color:black ;
+  color: black;
   border: 2px solid black;
   border-style: none none solid none;
   font-weight: 700;
 }
 
-@media only screen and (max-width: 767px)  {
-	#current {
-	  color:black ;
-	  border: none;
-	 font-weight:  700;
-		}
+@media only screen and (max-width: 767px) {
+  #current {
+    color: black;
+    border: none;
+    font-weight: 700;
+  }
 }
 
 
 
 /*imagen inicio*/
 
-.imghero{
-height: 97vh;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
-margin-top: 5rem;
+.imghero {
+  height: 97vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 5rem;
 }
 
 .imghero-index {
@@ -162,80 +162,80 @@ margin-top: 5rem;
 }
 
 .imghero-nosotros {
-background-image: url("../media/nosotros/img-hero.png");
-    
+  background-image: url("../media/nosotros/img-hero.png");
+
 }
 
 .imghero-participantes {
-background-image: url("../media/participantes/img-hero.png");
+  background-image: url("../media/participantes/img-hero.png");
 }
 
-@media only screen and (max-width: 367px)  {
+@media only screen and (max-width: 367px) {
 
-      .imghero-comoparticipar {
-      background-image: url("../media/comoparticipar/img-hero.png");
-      height: 180vh;
-      }
+  .imghero-comoparticipar {
+    background-image: url("../media/comoparticipar/img-hero.png");
+    height: 180vh;
+  }
 }
 
 
-@media only screen and (min-width: 368px) and (max-width: 767px)  {
+@media only screen and (min-width: 368px) and (max-width: 767px) {
 
-      .imghero-comoparticipar {
-      background-image: url("../media/comoparticipar/img-hero.png");
-      height: 150vh;
-      }
+  .imghero-comoparticipar {
+    background-image: url("../media/comoparticipar/img-hero.png");
+    height: 150vh;
+  }
 }
 
-@media only screen and (min-width: 767px)  {
+@media only screen and (min-width: 767px) {
 
-      .imghero-comoparticipar {
-      background-image: url("../media/comoparticipar/img-hero.png");
-      height: 110vh;
+  .imghero-comoparticipar {
+    background-image: url("../media/comoparticipar/img-hero.png");
+    height: 110vh;
 
-      }
+  }
 }
 
 
 .imghero-voluntariovirtual {
-background-image: url("../media/voluntario/img-hero.png");
+  background-image: url("../media/voluntario/img-hero.png");
 }
 
 .imghero-donar {
-background-image: url("../media/donar/imghero.jpg");
+  background-image: url("../media/donar/imghero.jpg");
 }
 
-.imghero-cursos{
-background-image: url("../media/cursos/imghero.png");
-}
-
-
-@media only screen and (max-width: 767px)  {
-
-  .imghero-cursos{
+.imghero-cursos {
   background-image: url("../media/cursos/imghero.png");
-  height: 150vh;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+  .imghero-cursos {
+    background-image: url("../media/cursos/imghero.png");
+    height: 150vh;
   }
 
 }
 
-@media only screen and (min-width: 767px)  {
+@media only screen and (min-width: 767px) {
 
-      
-  .imghero-cursos{
-  background-image: url("../media/cursos/imghero.png");
 
-      }
+  .imghero-cursos {
+    background-image: url("../media/cursos/imghero.png");
+
+  }
 }
 
 .p-hero {
-  color:white;
+  color: white;
   font-family: 'lato';
-   font-size: 1.2rem;
-   font-style: 400;
+  font-size: 1.2rem;
+  font-style: 400;
 }
 
-.titular{
+.titular {
   margin-top: 15vh;
 }
 
@@ -247,7 +247,7 @@ background-image: url("../media/cursos/imghero.png");
 
 /*cursos scroll lateral index*/
 
-.titulo-aprender{
+.titulo-aprender {
   color: white;
   padding-top: 3rem;
 }
@@ -271,48 +271,48 @@ div.scrollmenu .card:hover {
 
 
 .card1 {
-margin-left: 2rem;
-background: rgb(123,122,122);
-background: linear-gradient(180deg, rgba(123,122,122,0) 0%, rgba(123,122,122,0.7) 100%), url("../media/index/programacion.png");
+  margin-left: 2rem;
+  background: rgb(123, 122, 122);
+  background: linear-gradient(180deg, rgba(123, 122, 122, 0) 0%, rgba(123, 122, 122, 0.7) 100%), url("../media/index/programacion.png");
 }
 
 .card2 {
-background: rgb(123,122,122);
-background: linear-gradient(180deg, rgba(123,122,122,0) 0%, rgba(123,122,122,0.7) 100%), url("../media/index/edutin.png");
+  background: rgb(123, 122, 122);
+  background: linear-gradient(180deg, rgba(123, 122, 122, 0) 0%, rgba(123, 122, 122, 0.7) 100%), url("../media/index/edutin.png");
 }
 
-.card3{
-background: linear-gradient(180deg, rgba(123,122,122,0) 0%, rgba(123,122,122,0.7) 100%), url("../media/index/edutin.png");
+.card3 {
+  background: linear-gradient(180deg, rgba(123, 122, 122, 0) 0%, rgba(123, 122, 122, 0.7) 100%), url("../media/index/edutin.png");
 }
 
-.card{
-width: 279px;
-height: 244px;
-border-radius: 15px;
-margin-right: 2rem;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+.card {
+  width: 279px;
+  height: 244px;
+  border-radius: 15px;
+  margin-right: 2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
-.titulocard{
- padding-top: 4rem;
+.titulocard {
+  padding-top: 4rem;
 }
 
 .boton-outlined-card {
-  background-color:  transparent;
+  background-color: transparent;
   border-radius: 10px;
   height: 48px;
   width: 159px;
-  border:4px solid white;
+  border: 4px solid white;
 }
 
 .boton-outlined-card a {
-   font-size: 1.2rem;
-  color:white;
-   padding: 25px 25px 25px 20px;
-  
+  font-size: 1.2rem;
+  color: white;
+  padding: 25px 25px 25px 20px;
+
 }
 
 .boton-outlined-card:hover {
@@ -320,12 +320,12 @@ background-size: cover;
 }
 
 .boton-outlined-card a:hover {
-  color:#9216BD;
+  color: #9216BD;
 }
 
 
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 
@@ -333,79 +333,80 @@ background-size: cover;
 
 /*formulario contacto*/
 .form-consulta {
-  max-width: 500px; 
-  background: none; 
-  padding: 1rem; 
+  max-width: 500px;
+  background: none;
+  padding: 1rem;
   font-family: 'lato', sans-serif;
 }
 
 .form_sin-witdh-max {
-max-width: none; 
+  max-width: none;
 }
 
 .campo-form {
-  width:100%; 
-  height:48px; 
-  margin:2px 0 6px; 
-  padding-left:6px; 
+  width: 100%;
+  height: 48px;
+  margin: 2px 0 6px;
+  padding-left: 6px;
   box-sizing: border-box;
-  border-radius:8px;
+  border-radius: 8px;
 
-  font-family: 'lato', sans-serif; 
-  font-size:1em;}
+  font-family: 'lato', sans-serif;
+  font-size: 1em;
+}
 
-label{
+label {
   color: white;
   font-family: 'lato';
   font-style: 700;
   display: flex;
   flex-direction: column;
-    width:100%; 
+  width: 100%;
 
-  }
+}
 
 label span {
   color: white
 }
 
 textarea {
-min-height: 150px!important;
+  min-height: 150px !important;
 }
 
 
 .boton-outlined-form {
-  background-color:  transparent;
+  background-color: transparent;
   border-radius: 10px;
   height: 48px;
   width: 156px;
-  border:4px solid #9216BD;
-   font-size: 1.2rem;
-  color:white;
+  border: 4px solid #9216BD;
+  font-size: 1.2rem;
+  color: white;
   font-family: "multicolore";
 }
 
 
 .boton-outlined-form:hover {
-background-color: #9216BD;
+  background-color: #9216BD;
 }
 
 .boton-outlined-form_contacto {
-  
-  border:4px solid white;
+
+  border: 4px solid white;
   margin-left: 15px;
 
 }
 
 .boton-outlined-form_contacto:hover {
   background-color: white;
-  color:#9216BD;
+  color: #9216BD;
 }
 
 
 
 /*SOBRE NOSOTROS (SECCION Y PARTES DE INICIO)*/
 
-.numero{
+.numero {
   font-size: 3.75rem;
   color: #9216BD;
   font-family: 'lato';
@@ -413,71 +414,72 @@ background-color: #9216BD;
 }
 
 .titular-sobrenosotros {
-margin-top: 5vh;
+  margin-top: 5vh;
 }
 
-.backgroundnosotros{
+.backgroundnosotros {
   background-color: rgba(244, 244, 244, .7);
 }
 
-.mision-color{
+.mision-color {
   background-color: #9216BD;
 }
 
-.vision-color{
-  background-color: #5C5C5C;
+.vision-color {
+  background-color: #34A875;
 }
+
 .vision-mision {
   height: 70vh;
 }
 
 
 .historia {
-background-color: #9216BD;
- border-radius: 10px;
- height: 50px;
- color:white;
- font-weight: 700;
- font-family: lato;
- font-size: 1.2rem;
+  background-color: #9216BD;
+  border-radius: 10px;
+  height: 50px;
+  color: white;
+  font-weight: 700;
+  font-family: lato;
+  font-size: 1.2rem;
 }
 
 .mestop {
-    border:2px solid #9216BD;
-    border-radius: 10px 10px 0 0;
+  border: 2px solid #9216BD;
+  border-radius: 10px 10px 0 0;
 }
 
 .mesmedio {
-    border:2px solid #9216BD;
-    border-top: none;
+  border: 2px solid #9216BD;
+  border-top: none;
 }
 
 .mesbottom {
 
-  border:2px solid #9216BD;
+  border: 2px solid #9216BD;
   border-top: none;
   border-radius: 0 0 10px 10px;
 
 }
 
 .cardmes {
-   padding: .5rem;
-    border: none;
-    color: #2C2B2A;
-    font-weight: 700;
-    margin: 0.8rem;
+  padding: .5rem;
+  border: none;
+  color: #2C2B2A;
+  font-weight: 700;
+  margin: 0.8rem;
 }
 
 .cardmes:hover {
-   color: #9216BD;
+  color: #9216BD;
 }
 
 .list-group-submenu {
-  margin-left:20px;
+  margin-left: 20px;
 }
 
 .year:hover {
-  color:#2C2B2A;
+  color: #2C2B2A;
 }
 
 
@@ -491,12 +493,12 @@ background-color: #9216BD;
 
 }
 
-.titulo-footer{
-  color:white;
+.titulo-footer {
+  color: white;
 }
 
 .p-footer {
-  color:white;
+  color: white;
   font-family: "lato";
   font-size: 1.2rem;
 }
@@ -510,7 +512,7 @@ background-color: #9216BD;
 }
 
 .redes {
-  color:white;
+  color: white;
   font-size: 3rem;
 }
 
@@ -529,12 +531,8 @@ background-color: #9216BD;
 /*como participar*/
 
 .boton-formulario {
-   font-family: "multicolore";
-   font-weight: 400;
-   font-size: 1.2rem;
-   width: 214px;
+  font-family: "multicolore";
+  font-weight: 400;
+  font-size: 1.2rem;
+  width: 214px;
 }
-
-
-
-
