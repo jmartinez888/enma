@@ -1,0 +1,537 @@
+
+/* general*/
+
+* { 
+  font-family: 'lato', 'Multicolore', sans-serif; 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ @font-face {
+      font-family: "multicolore";
+      src: url("../media/multicolore.otf");
+    }
+
+h1,h2,h3,h4,h5,h6, button a {
+  font-family: "multicolore";
+  src: url("../media/multicolore.otf");
+
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+p {
+   font-family: 'lato';
+   font-size: 1.2rem;
+   font-style: 400;
+   color: #2C2B2A;
+}
+
+
+
+
+/*colores*/
+
+.naranja{
+  color: #FBBA13;
+}
+
+.blanco {
+color: white;
+}
+
+.colornegro{
+  color:#2C2B2A;
+}
+
+.gris{
+  color:#F4F4F4;
+}
+
+
+
+
+
+/*botones generales*/
+.boton-primary{
+  background-color:#FBBA13;
+  border-radius: 10px;
+  height: 48px;
+  width: 252px;
+  border:none;
+  color: white;
+}
+
+.boton-primary a {
+  font-size: 1.2rem;
+  color:white;
+  padding: 14px 40px 14px 40px;
+}
+
+.boton-primary:hover {
+background-color:white;
+}
+
+.boton-primary a:hover {
+color:#FBBA13;
+}
+
+
+.boton-second{
+  background-color:white;
+  border-radius: 10px;
+  height: 48px;
+  width: 252px;
+  border:none;
+  margin-top: 1rem;
+}
+
+.boton-second a {
+  font-size: 1.2rem;
+  color:#FBBA13;
+   padding: 14px 16px 14px 16px;
+}
+
+.boton-second:hover {
+background-color:#FBBA13;
+}
+
+.boton-second a:hover {
+color:white;
+}
+
+.boton-outlined {
+  background-color:  transparent;
+  border-radius: 10px;
+  height: 48px;
+  width: 252px;
+  border:4px solid #FBBA13;
+}
+
+.boton-outlined a{
+   font-size: 1.2rem;
+  color:#2C2B2A;
+
+}
+
+.boton-outlined:hover {
+  background-color: #FBBA13;
+}
+
+
+
+
+/*navbar*/
+
+#current {
+  color:black ;
+  border: 2px solid black;
+  border-style: none none solid none;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 767px)  {
+	#current {
+	  color:black ;
+	  border: none;
+	 font-weight:  700;
+		}
+}
+
+
+
+/*imagen inicio*/
+
+.imghero{
+height: 97vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+margin-top: 5rem;
+}
+
+.imghero-index {
+  background-image: url("../media/index/hero-image.png");
+}
+
+.imghero-nosotros {
+background-image: url("../media/nosotros/img-hero.png");
+    
+}
+
+.imghero-participantes {
+background-image: url("../media/participantes/img-hero.png");
+}
+
+@media only screen and (max-width: 367px)  {
+
+      .imghero-comoparticipar {
+      background-image: url("../media/comoparticipar/img-hero.png");
+      height: 180vh;
+      }
+}
+
+
+@media only screen and (min-width: 368px) and (max-width: 767px)  {
+
+      .imghero-comoparticipar {
+      background-image: url("../media/comoparticipar/img-hero.png");
+      height: 150vh;
+      }
+}
+
+@media only screen and (min-width: 767px)  {
+
+      .imghero-comoparticipar {
+      background-image: url("../media/comoparticipar/img-hero.png");
+      height: 110vh;
+
+      }
+}
+
+
+.imghero-voluntariovirtual {
+background-image: url("../media/voluntario/img-hero.png");
+}
+
+.imghero-donar {
+background-image: url("../media/donar/imghero.jpg");
+}
+
+.imghero-cursos{
+background-image: url("../media/cursos/imghero.png");
+}
+
+
+@media only screen and (max-width: 767px)  {
+
+  .imghero-cursos{
+  background-image: url("../media/cursos/imghero.png");
+  height: 150vh;
+  }
+
+}
+
+@media only screen and (min-width: 767px)  {
+
+      
+  .imghero-cursos{
+  background-image: url("../media/cursos/imghero.png");
+
+      }
+}
+
+.p-hero {
+  color:white;
+  font-family: 'lato';
+   font-size: 1.2rem;
+   font-style: 400;
+}
+
+.titular{
+  margin-top: 15vh;
+}
+
+
+
+
+
+
+
+/*cursos scroll lateral index*/
+
+.titulo-aprender{
+  color: white;
+  padding-top: 3rem;
+}
+
+div.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu .card {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu .card:hover {
+  background-color: #777;
+}
+
+
+.card1 {
+margin-left: 2rem;
+background: rgb(123,122,122);
+background: linear-gradient(180deg, rgba(123,122,122,0) 0%, rgba(123,122,122,0.7) 100%), url("../media/index/programacion.png");
+}
+
+.card2 {
+background: rgb(123,122,122);
+background: linear-gradient(180deg, rgba(123,122,122,0) 0%, rgba(123,122,122,0.7) 100%), url("../media/index/edutin.png");
+}
+
+.card3{
+background: linear-gradient(180deg, rgba(123,122,122,0) 0%, rgba(123,122,122,0.7) 100%), url("../media/index/edutin.png");
+}
+
+.card{
+width: 279px;
+height: 244px;
+border-radius: 15px;
+margin-right: 2rem;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.titulocard{
+ padding-top: 4rem;
+}
+
+.boton-outlined-card {
+  background-color:  transparent;
+  border-radius: 10px;
+  height: 48px;
+  width: 159px;
+  border:4px solid white;
+}
+
+.boton-outlined-card a {
+   font-size: 1.2rem;
+  color:white;
+   padding: 25px 25px 25px 20px;
+  
+}
+
+.boton-outlined-card:hover {
+  background-color: white;
+}
+
+.boton-outlined-card a:hover {
+  color:#FBBA13;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+/*formulario contacto*/
+.form-consulta {
+  max-width: 500px; 
+  background: none; 
+  padding: 1rem; 
+  font-family: 'lato', sans-serif;
+}
+
+.form_sin-witdh-max {
+max-width: none; 
+}
+
+.campo-form {
+  width:100%; 
+  height:48px; 
+  margin:2px 0 6px; 
+  padding-left:6px; 
+  box-sizing: border-box;
+  border-radius:8px;
+
+  font-family: 'lato', sans-serif; 
+  font-size:1em;}
+
+label{
+  color: white;
+  font-family: 'lato';
+  font-style: 700;
+  display: flex;
+  flex-direction: column;
+    width:100%; 
+
+  }
+
+label span {
+  color: white
+}
+
+textarea {
+min-height: 150px!important;
+}
+
+
+.boton-outlined-form {
+  background-color:  transparent;
+  border-radius: 10px;
+  height: 48px;
+  width: 156px;
+  border:4px solid #FBBA13;
+   font-size: 1.2rem;
+  color:white;
+  font-family: "multicolore";
+}
+
+
+.boton-outlined-form:hover {
+background-color: #FBBA13;
+}
+
+.boton-outlined-form_contacto {
+  
+  border:4px solid white;
+  margin-left: 15px;
+
+}
+
+.boton-outlined-form_contacto:hover {
+  background-color: white;
+  color:#FBBA13;
+}
+
+
+
+/*SOBRE NOSOTROS (SECCION Y PARTES DE INICIO)*/
+
+.numero{
+  font-size: 3.75rem;
+  color: #FBBA13;
+  font-family: 'lato';
+  font-style: 400;
+}
+
+.titular-sobrenosotros {
+margin-top: 5vh;
+}
+
+.backgroundnosotros{
+  background-color: rgba(244, 244, 244, .7);
+}
+
+.mision-color{
+  background-color: #FBBA13;
+}
+
+.vision-color{
+  background-color: #5C5C5C;
+}
+.vision-mision {
+  height: 70vh;
+}
+
+
+.historia {
+background-color: #FBBA13;
+ border-radius: 10px;
+ height: 50px;
+ color:white;
+ font-weight: 700;
+ font-family: lato;
+ font-size: 1.2rem;
+}
+
+.mestop {
+    border:2px solid #FBBA13;
+    border-radius: 10px 10px 0 0;
+}
+
+.mesmedio {
+    border:2px solid #FBBA13;
+    border-top: none;
+}
+
+.mesbottom {
+
+  border:2px solid #FBBA13;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+
+}
+
+.cardmes {
+   padding: .5rem;
+    border: none;
+    color: #2C2B2A;
+    font-weight: 700;
+    margin: 0.8rem;
+}
+
+.cardmes:hover {
+   color: #FBBA13;
+}
+
+.list-group-submenu {
+  margin-left:20px;
+}
+
+.year:hover {
+  color:#2C2B2A;
+}
+
+
+
+
+/*FOOTER*/
+
+
+.footer {
+  background-color: #2C2B2A;
+
+}
+
+.titulo-footer{
+  color:white;
+}
+
+.p-footer {
+  color:white;
+  font-family: "lato";
+  font-size: 1.2rem;
+}
+
+.copyright {
+  background-color: #FBBA13;
+}
+
+.copyright p {
+  color: white;
+}
+
+.redes {
+  color:white;
+  font-size: 3rem;
+}
+
+.redes:hover {
+  color: #FBBA13;
+}
+
+
+/*participantes*/
+
+.logo-participantes {
+  height: 82px;
+  width: auto;
+}
+
+/*como participar*/
+
+.boton-formulario {
+   font-family: "multicolore";
+   font-weight: 400;
+   font-size: 1.2rem;
+   width: 214px;
+}
+
+
+
+
