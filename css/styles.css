@@ -181,8 +181,9 @@ margin-top: -5rem;
 @media only screen and (max-width: 367px) {
 
   .imghero-comoparticipar {
-    background-image: url("../media/comoparticipar/img-hero.png");
+    background-image: url("../media/comoparticipar/Imagen7.jpg");
     height: 180vh;
+    opacity: 0.9;
   }
 }
 
@@ -190,23 +191,25 @@ margin-top: -5rem;
 @media only screen and (min-width: 368px) and (max-width: 767px) {
 
   .imghero-comoparticipar {
-    background-image: url("../media/comoparticipar/img-hero.png");
+    background-image: url("../media/comoparticipar/Imagen7.jpg");
     height: 150vh;
+    opacity: 0.9;
   }
 }
 
 @media only screen and (min-width: 767px) {
 
   .imghero-comoparticipar {
-    background-image: url("../media/comoparticipar/img-hero.png");
+    background-image: url("../media/comoparticipar/Imagen7.jpg");
     height: 110vh;
+    opacity: 0.9;
 
   }
 }
 
 
 .imghero-voluntariovirtual {
-  background-image: url("../media/voluntario/img-hero.png");
+  background-image: url("../media/voluntario/Imagen8.png");
 }
 
 .imghero-donar {
