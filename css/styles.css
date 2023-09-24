@@ -279,16 +279,16 @@ div.scrollmenu .card:hover {
 .card1 {
   margin-left: 2rem;
   background: rgb(123, 122, 122);
-  background: linear-gradient(180deg, rgba(123, 122, 122, 0) 0%, rgba(123, 122, 122, 0.7) 100%), url("../media/index/programacion.png");
+  background: linear-gradient(180deg, rgba(123, 122, 122, 0) 0%, rgba(123, 122, 122, 0.7) 100%), url("../media/cursos/derechos.jpeg");
 }
 
 .card2 {
   background: rgb(123, 122, 122);
-  background: linear-gradient(180deg, rgba(123, 122, 122, 0) 0%, rgba(123, 122, 122, 0.7) 100%), url("../media/index/edutin.png");
+  background: linear-gradient(180deg, rgba(123, 122, 122, 0) 0%, rgba(123, 122, 122, 0.7) 100%), url("../media/cursos/padres.jpeg");
 }
 
 .card3 {
-  background: linear-gradient(180deg, rgba(123, 122, 122, 0) 0%, rgba(123, 122, 122, 0.7) 100%), url("../media/index/edutin.png");
+  background: linear-gradient(180deg, rgba(123, 122, 122, 0) 0%, rgba(123, 122, 122, 0.7) 100%), url("../media/cursos/autoestima.jpeg");
 }
 
 .card {
