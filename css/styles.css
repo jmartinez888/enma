@@ -147,9 +147,16 @@ p {
 
 
 /*imagen inicio*/
+.imghero-landing {
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+margin-top: -5rem;
+}
 
 .imghero{
-/* height: 97vh; */
+height: 97vh;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
