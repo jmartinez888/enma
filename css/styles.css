@@ -130,7 +130,7 @@ p {
 /*navbar*/
 
 #current {
-  color:#9216BD;
+  color: #9216BD;
   border: 2px solid #9216BD;
   border-style: none none solid none;
   font-weight: 700;
@@ -147,14 +147,22 @@ p {
 
 
 /*imagen inicio*/
+.imghero-landing {
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+margin-top: -5rem;
+}
 
-.imghero {
-  height: 97vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  margin-top: 5rem;
+.imghero{
+height: 97vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+margin-top: -5rem;
+
 }
 
 .imghero-index {
@@ -162,7 +170,7 @@ p {
 }
 
 .imghero-nosotros {
-  background-image: url("../media/nosotros/img-hero.png");
+  background-image: url("../media/nosotros/nosotros-banner.jpeg");
 
 }
 
